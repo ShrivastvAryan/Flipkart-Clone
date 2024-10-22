@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F1F2F4;
+    
+}
+#navbar{
+    background-color:#2874f0 ;
+    height: 4rem;
+    width: 100vw;
+    border: 1rem solid black;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    height:3rem;
+    width: 8rem;
+    margin-top: 0.7rem;
+    cursor: pointer;
+}
+
+input{
+    height: 2rem;
+    width: 40vw;
+    border: none;
+    border-radius: 5px;
+}
+
+#login,#cart,#seller,#drop,#textbox{
+    display: flex;
+    margin-top:25px ;
+    font-size: 1rem;
+    color: white;
+    padding-right: 2rem;
+    cursor: pointer;
+}
+
+#textbox{
+    margin-top: 20px;
+}
+
+.logo{
+    padding-right: 1rem;
+}
+
+.glass{
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+}
+
+#mid{
+    height: 8.5rem;
+    width: 97vw;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1rem;
+    border: 1rem solid black;
+    margin-top: 0.5rem;
+    background-color: white;
+    border: none;
+    
+}
+
+.mid-img{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.mid-para{
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#mid-down{
+    height: 13rem;
+    width: 97vw;
+    border: 1px solid black;
+    border: none;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.slide-img{
+    width:97vw;
+    height: 13rem;
+    position: absolute;
+}
+
+#mid-down:first-child{
+    z-index: 1;
+}
+
+#mid-down:nth-child(2){
+    z-index: 0;
+}
+
+#navigation-button{
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    row-gap: 1rem;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+#down-main{
+    height: 20rem;
+    width: 97vw;
+    border: 1px solid black;
+    border: none;
+    margin-top: 0.9rem;
+    margin-left: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;   
+}
+
+#down{
+    height: 16rem;
+    width: 97vw;
+    border: 1px solid black;
+    border: none;
+    margin-left: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.mobiles{
+    background-color: white;
+    text-align: center;
+    border: 0.2px solid darkgrey;
+    border-radius: 5px;
+    width: 13rem;
+    cursor: pointer;
+}
+.down-img{
+    height: 11rem;
+    width: 9rem;
+}
+
+.price{
+    font-weight: bold;
+    margin-top: 0.3rem;
+}
+
+#deal-para{
+    width: 97vw;
+    border: 1px solid black;
+    border: none;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    background-color: white;
+    display: flex; 
+    
+}
+
+.deals{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#down-one{
+    height: 16rem;
+    width: 97vw;
+    border: 1px solid black;
+    border: none;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.down-one-img{
+    height: 15rem;
+    width: 27rem;
+    cursor: pointer;
+
+}
+
+#last-main{
+    display: flex;
+}
+
+#shoe,#oven,#cycle,#bottle{
+    height: 11rem;
+    width: 12rem;
+    border: 1px solid black;
+    margin-top: 1.5rem;
+    border: 0.2px solid darkgrey;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#shoe{
+    background-image: url("Photos/shoes.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#oven{
+    background-image: url("Photos/oven.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#cycle{
+    background-image: url("Photos/cycle.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#bottle{
+    background-image: url("Photos/bottle.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.s-para{
+    text-align: center;
+    margin-top: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 2px;
+    font-size: large;
+}
+.discount{
+    text-align: center;
+    color: green;
+    font-size: large;
+    font-weight: bold;
+
+}
+#last{
+    height: 30.5rem;
+    width: 32vw;
+    border: 1px solid black;
+    border: none;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+}
+
+
+#last-one{
+    height: 30.5rem;
+    width: 32vw;
+    border: 1px solid black;
+    border: none;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#cream,#oil,#dryer,#gel{
+    height: 11rem;
+    width: 12rem;
+    border: 1px solid black;
+    margin-top: 1.5rem;
+    border: 0.2px solid darkgrey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cream{
+    background-image: url("Photos/cream.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#oil{
+    background-image: url("Photos/oil.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#dryer{
+    background-image: url("Photos/hair\ dryer.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#gel{
+    background-image: url("Photos/gel.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+
+#cloth-deal1{
+    height: 13.6rem;
+    width: 32vw;
+    border: 1px solid black;
+    border: none;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    background-color: white;
+    display: flex;
+    background-repeat: no-repeat;
+    padding-bottom: 1rem;
+    background-image: url("Photos/deal2.webp");
+    background-size: cover;
+    background-position-x: center;
+    cursor: pointer;
+}
+
+#cloth-deal2{
+    height: 14.1rem;
+    width: 32vw;
+    border: 1px solid black;
+    border: none;
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+    background-color: white;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 1rem;
+    background-image: url("Photos/deals\ fashion.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#footbar{
+    margin-top: 5rem;
+    background-color:#212121;
+    height: 20rem;
+    width: 100vw;
+    border: 1rem solid black;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.one{
+    height: 15rem;
+    width: 14rem;
+    margin-top: 2rem;
+}
+
+.heading{
+    color: darkgray;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.head-para{
+    color: white;
+    font-weight: bold;
+    margin-top:0.5rem;
+    font-size: 13px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.dropbtn{
+    border: none;
+    width: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    background-color: #2874f0;
+    color: #ffffff;
+    cursor: pointer;
+}
+
